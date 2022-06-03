@@ -222,7 +222,7 @@ function levelUp() {
       showGamePoints("YOU WIN!", cvs.width / 2 - 45, cvs.height / 2);
       return;
     }
-    // brick.row = level;
+    brick.row = level;
     createBricks();
     resetBall();
     level++;
@@ -367,12 +367,8 @@ function update() {
 }
 
 function loop() {
-  // ctx.drawImage(bg, 0, 0);
-
   draw();
-
   update();
-
   if (!gameLose) {
     requestAnimationFrame(loop);
   }
