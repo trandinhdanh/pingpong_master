@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body {
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #db6eac 0%, #784BA0 50%, #2B86C5 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+
+body #breakOut {
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+body #btn-start {
+  border: none;
+  font-size: 30px;
+  background-color: #12273a;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+}
+
+body #btn-start:hover {
+  background-color: #3498db;
+}
+
+body .btn-level {
+  margin-bottom: 10px;
+}
+
+body .btn-level #levelVal {
+  background-color: #12273a;
+  font-size: 20px;
+  color: #ffff;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+body .btn-level #level {
+  background-color: #12273a;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+body .btn-level #level:hover, body .btn-level #levelVal:hover {
+  background-color: #3498db;
+}
+/*# sourceMappingURL=style.css.map */
